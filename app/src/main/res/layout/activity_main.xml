@@ -17,6 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <!-- Title -->
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
@@ -27,6 +28,7 @@
             android:textColor="#673AB7"
             android:textSize="24sp" />
 
+        <!-- Input field for address -->
         <EditText
             android:id="@+id/addressInput"
             android:layout_width="match_parent"
@@ -36,6 +38,7 @@
             android:inputType="text"
             android:padding="12dp" />
 
+        <!-- Input field for latitude -->
         <EditText
             android:id="@+id/latitudeInput"
             android:layout_width="match_parent"
@@ -45,6 +48,7 @@
             android:inputType="numberSigned|numberDecimal"
             android:padding="12dp" />
 
+        <!-- Input field for longitude -->
         <EditText
             android:id="@+id/longitudeInput"
             android:layout_width="match_parent"
@@ -55,6 +59,7 @@
             android:padding="12dp"
             android:textAllCaps="false" />
 
+        <!-- Add button -->
         <Button
             android:id="@+id/addButton"
             android:layout_width="match_parent"
@@ -62,18 +67,21 @@
             android:layout_marginTop="16dp"
             android:text="Add Location" />
 
+        <!-- Query button -->
         <Button
             android:id="@+id/queryButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Query Location" />
 
+        <!-- Update button -->
         <Button
             android:id="@+id/updateButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Update Location" />
 
+        <!-- Delete button -->
         <Button
             android:id="@+id/deleteButton"
             android:layout_width="match_parent"
